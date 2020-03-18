@@ -6,8 +6,6 @@ Função que recebe a lista de fatos e uma entidade, que será usada para checar
 É criado um array vazio que guarda arrays de nomes e entidades que foram checados. A função percorre a lista de fatos de trás para frente, se o fato em questão não estiver na lista de fatos checados, possuir a entidade que esta sendo tratada e possuir o valor true, o nome e a entidade serão adicionados ao array de fatos checados e o fato é adicionado a lista de retorno da função. 
 A função retorna uma lista com fatos atuais do tipo 'one' de uma dada entidade.
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
-
 ## RetornaTodosOsFatosDoTipoMany(facts,entidade)
 Função recebe a lista de fatos e uma entidade, que também será usada para checar qual fato será adicionado na lista a ser retornada. Novamente o array de fatos é percorrido de trás para frente e caso o fato em questão possua a entidade que se está procurando e possua o valor true, este é adicionado a lista de retorno da função. A função retorna uma lista com fatos do tipo 'many' de uma entidade dada que possuam valor true.
 
